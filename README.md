@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Live Markdown Editor
 
-## Getting Started
+A modern, feature-rich markdown editor with live preview capabilities, built with Next.js and TypeScript.
 
-First, run the development server:
+## Usage
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Live Markdown Editor is a live project and can be used for free [here](https://livemd.trygve.dev/)!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   Type markdown in the left panel
+-   See the live preview in the right panel
+-   Use the toolbar buttons to:
+    -   Download your markdown
+    -   Copy markdown to clipboard
+    -   Access the markdown guide
+    -   Configure settings like sync scrolling and auto-save
+-   Drag the middle handle to resize panels
+-   Your content is automatically saved to local storage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   📝 Real-time markdown preview
+-   🔄 Sync scrolling between editor and preview
+-   💾 Auto-save functionality
+-   📥 Download markdown files
+-   📋 Copy markdown to clipboard
+-   ⚡ Fast and responsive UI
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+-   [Next.js](https://nextjs.org/) - React framework
+-   [TypeScript](https://www.typescriptlang.org/) - Type safety
+-   [Tailwind CSS](https://tailwindcss.com/) - Styling
+-   [Radix UI](https://www.radix-ui.com/) - UI components
+-   [Marked](https://marked.js.org/) - Markdown parsing
+-   [Lucide](https://lucide.dev/) - Icons
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Created by [TrygveDev](https://www.trygve.dev/)
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the MIT license.

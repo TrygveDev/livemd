@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import PlausibleProvider from "next-plausible";
 
 export const metadata: Metadata = {
 	title: {
@@ -90,8 +91,10 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body>
-				{children}
-				<Toaster closeButton richColors />
+				<PlausibleProvider domain="livemd.trygve.dev">
+					{children}
+					<Toaster closeButton richColors />
+				</PlausibleProvider>
 			</body>
 		</html>
 	);

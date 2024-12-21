@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 	authors: [
 		{
 			name: "TrygveDev",
-			url: "https://www.trygve.dev",
+			url: "https://trygve.dev",
 		},
 	],
 	creator: "TrygveDev",
@@ -23,13 +23,13 @@ export const metadata: Metadata = {
 		title: "Live Markdown Editor",
 		description:
 			"A powerful markdown editor with live preview capabilities.",
-		url: "https://www.livemd.trygve.dev",
+		url: "https://livemd.trygve.dev",
 		siteName: "Live Markdown Editor",
 		locale: "en_US",
 		type: "website",
 		images: [
 			{
-				url: "https://www.livemd.trygve.dev/og-image.png",
+				url: "https://livemd.trygve.dev/og-image.png",
 				width: 1200,
 				height: 630,
 				alt: "Live Markdown Editor",
@@ -45,12 +45,12 @@ export const metadata: Metadata = {
 		creator: "@TrygveDev",
 		site: "@TrygveDev",
 		images: {
-			url: "https://www.livemd.trygve.dev/og-image.png",
+			url: "https://livemd.trygve.dev/og-image.png",
 			alt: "Live Markdown Editor",
 		},
 	},
 	alternates: {
-		canonical: "https://www.livemd.trygve.dev",
+		canonical: "https://livemd.trygve.dev",
 	},
 	robots: {
 		index: true,
